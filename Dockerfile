@@ -1,5 +1,5 @@
 FROM alpine:3.3
 
-MAINTAINER Vlad Frolov <frolvlad@gmail.com>
+MAINTAINER @rubynerd <x@rubynerd.net>
 
-RUN apk add --no-cache ruby ruby-bundler
+RUN apk add --no-cache ruby ruby-bundler --repository https://rubynerd-distribution.s3.amazonaws.com/alpine/packages/main --allow-untrusted
